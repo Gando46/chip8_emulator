@@ -6,16 +6,6 @@ A CHIP-8 emulator written in modern C++ (C++17) using Raylib for graphics and in
 
 CHIP-8 is an interpreted programming language developed in the 1970s for simple video games. This emulator accurately recreates the CHIP-8 virtual machine, allowing you to run classic CHIP-8 programs and games.
 
-## Features
-
-- [x] Full CHIP-8 instruction set implementation
-- [x] 64x32 pixel monochrome display
-- [x] Keyboard input mapping
-- [x] Sound support (beep timer)
-- [x] Configurable clock speed
-- [ ] Debug mode (coming soon)
-- [ ] Pause/Resume functionality (coming soon)
-
 ## Technical Specifications
 
 - **Memory**: 4KB RAM (4096 bytes)
@@ -102,36 +92,6 @@ chip8-emulator/
 - [Awesome CHIP-8](https://chip-8.github.io/links/)
 - [Test ROMs](https://github.com/Timendus/chip8-test-suite)
 
-## Development Progress
-
-### Phase 1: Foundation ✅
-- [x] Project structure
-- [x] CHIP-8 class skeleton
-- [x] Memory and registers
-- [x] Basic initialization
-
-### Phase 2: Core Implementation 🚧
-- [ ] Opcode fetching and decoding
-- [ ] All 35 instructions
-- [ ] Display rendering
-- [ ] Input handling
-
-### Phase 3: Polish 📋
-- [ ] Sound implementation
-- [ ] Debug features
-- [ ] Performance optimization
-- [ ] Error handling
-
-## License
-
-MIT License - Feel free to use this for learning purposes.
-
 ## Author
 
 Built as a learning project to understand emulation, low-level programming, and C++.
-
-## Acknowledgments
-
-- Raylib for making graphics programming accessible
-- The CHIP-8 community for excellent documentation
-- Classic game developers who created timeless CHIP-8 programs
