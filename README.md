@@ -94,4 +94,4 @@ chip8-emulator/
 
 ## Author
 
-Built as a learning project to understand emulation, low-level programming, and C++.
+Built as a learning project to understand emulation, low-level programming, and C++
