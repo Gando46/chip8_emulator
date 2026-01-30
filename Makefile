@@ -1,5 +1,4 @@
 # CHIP-8 Emulator Makefile
-# Simple alternative to CMake
 
 # Compiler settings
 CXX := g++
